@@ -66,7 +66,7 @@
 
 Agoria provides an AI-powered platform that transforms businesses into live, verified interfaces for AI assistants like ChatGPT, Claude, and Gemini. By aggregating data, pricing, and availability, Agoria enables assistants to accurately quote prices, schedule bookings, and present up‑to‑date information. The service includes a free AI readiness audit, multiple pricing tiers, and tools for businesses to manage their AI visibility across major conversational agents.
 
-**Areas:** AI · Business · Platform · Commerce · Automation
+**Areas:** Artificial Intelligence · Business · Platform · Commerce · Automation
 
 ## Agoria on APIs.io
 
@@ -80,11 +80,17 @@ Everything profiled for Agoria is published on APIs.io rather than in this repos
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agoria-studio-mcp.yml](https://apis.io/servers/agoria-studio/agoria-studio-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agoria Studio Agentic Access](https://apis.io/agentic-access/agoria-studio/agoria-studio-agentic-access/)
+- [Agoria Agentic Access](https://apis.io/agentic-access/agoria-studio/agoria-studio-agentic-access/)
 
 #### Governance rules (1)
 
@@ -96,7 +102,7 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agoria Studio Domain Security](https://apis.io/security/agoria-studio/agoria-studio-domain-security/)
+- [Agoria Domain Security](https://apis.io/security/agoria-studio/agoria-studio-domain-security/)
 
 ## Where to find this API
 
@@ -110,27 +116,27 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 32.9** — thin · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 27.8** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 32.4 |
-| Contract governance | 65.5 |
+| Discoverability | 71.7 |
+| Contract quality | 35.5 |
+| Contract governance | 18.2 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 27.9 |
-| Access clarity | 21.1 |
+| Access clarity | 21.3 |
 
-**Agent readiness 44.5** — agent-ready (gated down from agent-native)
+**Agent readiness 42.4** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
-| Reversibility Documented | — |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | na |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
-| Idempotency | — |
+| Idempotency | na |
 | Error Semantics | — |
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
@@ -139,15 +145,19 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
-| Dry Run Mode | — |
+| Dry Run Mode | na |
 | Delegated Identity | served (partial credit) |
 | Protected Resource Metadata | verified |
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 19.1** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 13.6** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agoria-studio/](https://apis.io/providers/agoria-studio/).
 
